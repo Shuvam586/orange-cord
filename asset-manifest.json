@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/orange-cord/static/css/main.913342e8.css",
+    "main.js": "/orange-cord/static/js/main.dca6d3a4.js",
+    "static/js/787.35cea4b2.chunk.js": "/orange-cord/static/js/787.35cea4b2.chunk.js",
+    "index.html": "/orange-cord/index.html",
+    "main.913342e8.css.map": "/orange-cord/static/css/main.913342e8.css.map",
+    "main.dca6d3a4.js.map": "/orange-cord/static/js/main.dca6d3a4.js.map",
+    "787.35cea4b2.chunk.js.map": "/orange-cord/static/js/787.35cea4b2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.913342e8.css",
+    "static/js/main.dca6d3a4.js"
+  ]
+}
