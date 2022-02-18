@@ -19,7 +19,7 @@ firebase.initializeApp({
 })
 
 const auth = firebase.auth();
-const firebase = firebase.firestore();
+const firestore = firebase.firestore();
 
 function App(){
 
@@ -32,7 +32,7 @@ function App(){
       </header>
 
       <section>
-        {user ? <Chatroom /> : <SignIn />}
+        {user ? <ChatRoom /> : <SignIn />}
       </section>
     </div>
   );
@@ -54,6 +54,26 @@ function SignOut(){
 
     <button onClick={() => auth.signOut()}>Sign Out</button>
   )
+}
+
+function ChatRoom(){
+
+  const messagesRef = firestore.collection('messages');
+  const query = firestore.orderBy('createdAt').limit(25);
+
+  const [messages] = useCollectionData(query, {idField: 'id'});
+
+
+  return(
+    <div>
+      {messages && messages.map(msg => <ChatMessage key={msg.id} message = {msg} />)}
+    </div>
+  )
+}
+
+function ChatMessage(props){
+  const { text, uid } = props.message;
+  return <p>{text}</p>
 }
 
 export default App;
