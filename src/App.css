@@ -9,10 +9,14 @@ body{
   background: #363636;
   color: #f7f7f7;
   height: 100vh;
+  display: grid;
 }
 
 main{
-  height: 100vh;
+  height: 85vh;
+  display: flex ;
+  flex-direction: column;
+  overflow-y: scroll
 }
 
 header{
@@ -22,7 +26,8 @@ header{
   background: #2e2e2e;
   display: flex;
   padding-bottom: 3vh;
-  position: fixed;
+  /* position: fixed;
+  top: 0; */
 }
 
 h2{
@@ -42,7 +47,37 @@ h2{
   margin-right: 2vh;
   margin-top: calc(1.5vh);
   margin-left: auto;
+  cursor: pointer;
 }
+
+.sign-in{
+  outline: none;
+  height: 6vh;
+  width: 20vw;
+  border: 2px solid #65fa8a;
+  background-color: #363636;
+  color: #65fa8a;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 10vh;
+  margin-left: 40vw;
+  margin-right: 40vw;
+  cursor: pointer;
+}
+
+.sign-in-google{
+  border: 2px solid #65fa8a;
+  color: #65fa8a;
+}
+
+.sign-in-github{
+  border: 2px solid #e0e0e0;
+  color: #e0e0e0;
+}
+
+/* .sign-in-div{
+  margin-left: auto;
+  margin-right: auto;
+} */
 
 .message{
   display: flex;
@@ -61,20 +96,34 @@ h2{
 }
 
 .message-box{
-  position: fixed;
-  bottom: 0;
+  height: 6vh;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 7fr 1fr;
 }
 
-.message-box{
-  display: flex;
+.message-type{
+  background-color: #444444;
+  font-family: inherit;
+  outline: none;
+  border: none;
+  padding-left: 2vh;
+  color: #f7f7f7;
 }
+
+.send{
+  background-color: #585858;
+  border: none;
+  cursor: pointer;
+}
+
 
 
 /* disables the scrollbar */
-body::-webkit-scrollbar{
+body::-webkit-scrollbar, main::-webkit-scrollbar{
   display: none;
 }
-body{
+body, main{
   -ms-overflow-style: none;  
   scrollbar-width: none;  
 }
