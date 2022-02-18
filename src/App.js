@@ -1,9 +1,9 @@
 import React from 'react';
 import './App.css';
 
-import firebase from 'firebase/app';
-import 'firebase/firestore';
-import 'firebase/auth';
+import firebase from 'firebase/compat/app';
+import 'firebase/compat/firestore';
+import 'firebase/compat/auth';
 
 import { useAuthState, useSignInWithGoogle } from 'react-firebase-hooks/auth';
 import { useCollectionData } from 'react-firebase-hooks/firestore';
@@ -22,7 +22,7 @@ const auth = firebase.auth();
 const firestore = firebase.firestore();
 
 function App(){
-
+  
   const [user] = useAuthState(auth);
 
   return (
@@ -45,7 +45,7 @@ function SignIn(){
   }
 
   return(
-    <button onClick={useSignInWithGoogle}>Sign in with Google</button>
+    <button onClick={signInWithGoogle}>Sign in with Google</button>
   )
 }
 
