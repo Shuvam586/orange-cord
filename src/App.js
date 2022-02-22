@@ -1,3 +1,5 @@
+// See this video for deploying to the web page: https://www.youtube.com/watch?v=F8s4Ng-re0E
+
 import React, { useRef, useState } from 'react';
 import './App.css';
 
