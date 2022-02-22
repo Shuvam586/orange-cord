@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.732725ba.css",
-    "main.js": "/static/js/main.a4ae5a70.js",
-    "static/js/787.35cea4b2.chunk.js": "/static/js/787.35cea4b2.chunk.js",
-    "index.html": "/index.html",
-    "main.732725ba.css.map": "/static/css/main.732725ba.css.map",
-    "main.a4ae5a70.js.map": "/static/js/main.a4ae5a70.js.map",
-    "787.35cea4b2.chunk.js.map": "/static/js/787.35cea4b2.chunk.js.map"
+    "main.css": "/orange-cord/static/css/main.732725ba.css",
+    "main.js": "/orange-cord/static/js/main.461c042a.js",
+    "static/js/787.35cea4b2.chunk.js": "/orange-cord/static/js/787.35cea4b2.chunk.js",
+    "index.html": "/orange-cord/index.html",
+    "main.732725ba.css.map": "/orange-cord/static/css/main.732725ba.css.map",
+    "main.461c042a.js.map": "/orange-cord/static/js/main.461c042a.js.map",
+    "787.35cea4b2.chunk.js.map": "/orange-cord/static/js/787.35cea4b2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.732725ba.css",
-    "static/js/main.a4ae5a70.js"
+    "static/js/main.461c042a.js"
   ]
 }
