@@ -31,8 +31,14 @@ header{
 }
 
 h2{
-  padding: 2vh;
+  font-size: 2.9vh;
+  padding: 1.9vh;
   float: left;
+  margin-top: 0.4vh;
+}
+
+p{
+  font-size: 2.3vh;
 }
 
 .sign-out{
@@ -48,12 +54,13 @@ h2{
   margin-top: calc(1.5vh);
   margin-left: auto;
   cursor: pointer;
+  font-size: 1.6vh;
 }
 
 .sign-in{
   outline: none;
   height: 6vh;
-  width: 20vw;
+  width: 25vw;
   border: 2px solid #65fa8a;
   background-color: #363636;
   color: #65fa8a;
@@ -62,6 +69,7 @@ h2{
   margin-left: 40vw;
   margin-right: 40vw;
   cursor: pointer;
+  font-size: 1.6vh;
 }
 
 .sign-in-google{
@@ -88,6 +96,7 @@ h2{
   margin-top: auto;
   margin-bottom: auto;
   margin-left: 2vh;
+  word-break: break-all;
 }
 
 .message-box{
@@ -105,12 +114,14 @@ h2{
   padding-left: 2vh;
   color: #f7f7f7;
   line-height: 3;
+  font-size: 2vh;
 }
 
 .send{
   background-color: #585858;
   border: none;
   cursor: pointer;
+  font-size: 2vh;
 }
 
 
