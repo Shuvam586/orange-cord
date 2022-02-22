@@ -2,4 +2,4 @@
 
 URL: https://shuvam586.github.io/orange-cord/
 
-A chat app with React
+A chat app with React.
